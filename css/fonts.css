@@ -32,6 +32,29 @@
  .navItems {
      font-size: 1.5em;
  }
+ .navItems:hover {
+    color: #9870fc;
+}
+
+ /* main section Intro */
+ #fontMainIntro {
+    margin-left: 7em;
+    margin-top: 3em;
+    display: flex;
+    line-height: 2.7em;
+}
+#fontImg {
+    width: 400px;
+    height: 270px;
+}
+.listItems {
+    padding-left: 5em;
+    font-weight: 600;
+}
+.listItems:hover {
+   color: #9870fc;
+}
+/*Font  Footer Section*/
  footer {
     text-align: center;
     font-size: 1.5em;
