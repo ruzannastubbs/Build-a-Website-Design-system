@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <title>Website Design System: Text</title>
+        <link href="css/text.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- header section -->
+        <div class="homeHeaderDiv">
+            <header>
+                <h1 id="homeTitle">Website Design System: Text</h1>
+                <nav id="homeNav">
+                    <ul>
+                        <li><a href="index.html" id="home" class="navItems">Home</a></li>
+                        <li><a href="text.html" id="text" class="navItems">Text</a></li>
+                        <li><a href="fonts.html" id="fonts" class="navItems">Fonts</a></li>
+                        <li><a href="color.html" id="color" class="navItems">Color</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- main section -->
+        <main>
+          <div id="textMainIntro">
+           <div>
+            <img src="resources/text.gif" alt="magic of css" id="textImg"/>
+           </div>
+           <div>
+            <ul>
+                <li><a href="#textAlignment" class="listItems">Text Alignment</a></li>
+                <li><a href="#textDecoration" class="listItems">Text Decoration</a></li>
+                <li><a href="#textTransform" class="listItems">Text Transform</a></li>
+                <li><a href="#lineHeight" class="listItems">Line Height</a></li>
+                <li><a href="#letterSpacing" class="listItems">Letter Spacing</a></li>
+                <li><a href="#wordSpacing" class="listItems">Word Spacing</a></li>
+            </ul>
+          </div>
+        </div>
+          <section id="mainInfo">
+              <!-- Text Alignment section -->
+            <div id="textAlignmentDiv"> 
+            <h2 id="textAlignment">Text Alignment</h2>
+            <!-- left -->
+            <p>Left (<span class="spanBlue">text-align:</span> <span class="spanDarkBlue">left</span>) - aligns the text to the left.</p>
+            <p id="left">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- right alignment-->
+            <p class="rightP">Right (<span class="spanBlue">text-align:</span> <span class="spanDarkBlue">right</span>) - aligns the text to the right.</p>
+            <p class="rightP">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- center -->
+            <p class="centerP">Center (<span class="spanBlue">text-align:</span> <span class="spanDarkBlue">center</span>) - puts the text in center of the page.</p>
+            <p class="centerP">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- justify -->
+            <p class="justifyP">Justify (<span class="spanBlue">text-align:</span> <span class="spanDarkBlue">justify</span>) - stretches the line of text to align both the left and right ends (like in magazines and newspapers). Browsers by default align text to the left, and if there is need to align text to the right or put it in the center, we should use the corresponding value.</p>
+            <p class="justifyP">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+        </div>  
+        <!-- Text decoration section -->
+        <div id="textDecorationDiv"> 
+            <h2 id="textDecoration">Text Decoration</h2>
+            <!-- overline -->
+            <p>Overline (<span class="spanBlue">text-decoration:</span> <span class="spanDarkBlue">overline</span>) - each line of text has a line over it.</p>
+            <p class="gap" id="overline">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- Underline  -->
+            <p>Underline  (<span class="spanBlue">text-decoration:</span> <span class="spanDarkBlue">underline</span>) - each line text is underlined.</p>
+            <p class="gap" id="underline">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- Line-through  -->
+            <p>Line-through (<span class="spanBlue">text-decoration:</span> <span class="spanDarkBlue">line-through</span>) - each line of text has a line going through it.</p>
+            <p class="gap" id="lineThrough">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- None -->
+            <p>None (<span class="spanBlue">text-decoration:</span> <span class="spanDarkBlue">none</span>) - no text decoration is applied.</p>
+            <p class="gap" id="none">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+        </div> 
+        <!-- Text transform section -->
+        <div id="textTransformDiv"> 
+            <h2 id="textTransform">Text Transform</h2>
+            <!-- uppercase -->
+            <p>Uppercase (<span class="spanBlue">text-transform:</span> <span class="spanDarkBlue">uppercase</span>) - converts all characters to uppercase.</p>
+            <p class="gap" id="uppercase">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- lowercase  -->
+            <p>Lowercase  (<span class="spanBlue">text-transform:</span> <span class="spanDarkBlue">lowercase</span>) -  converts all characters to lowercase.</p>
+            <p class="gap" id="lowercase">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- capitalize  -->
+            <p>Capitalize (<span class="spanBlue">text-transform:</span> <span class="spanDarkBlue">capitalize</span>) - converts the first character of each word to uppercase.</p>
+            <p class="gap" id="capitalize">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+        </div> 
+        <div id="lineHeighmDiv"> 
+            <h2 id="lineHeight">Line Height</h2>
+            <!-- normal -->
+            <p class="normal">Normal (<span class="spanBlue">line-height:</span> <span class="spanDarkBlue">normal</span>) - which defines a normal line height. It is the default value of this property.</p>
+            <p class="normal">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- Length  -->
+            <p class="length">Length  (<span class="spanBlue">line-height:</span> <span class="spanDarkBlue">45px</span>) -  which defines a fixed line height in px, cm etc.</p>
+            <p class="length">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- number  -->
+            <p class="number">Number (<span class="spanBlue">line-height:</span> <span class="spanDarkBlue">3.5</span>) - which defines a number which is multiplied with the current font size to set the line height.</p>
+            <p class="number">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- percent-->
+            <p class="percent"> &#37; (<span class="spanBlue">line-height:</span> <span class="spanDarkBlue">200&#37;</span>) - which defines a line height in percent of current font size.</p>
+            <p class="percent">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- initial  -->
+            <p class="initial"> Initial (<span class="spanBlue">line-height:</span> <span class="spanDarkBlue">initial</span>) -  which makes the property use its default value.</p>
+            <p class="initial">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- inherit  -->
+            <p class="inherit">Inherit (<span class="spanBlue">line-height:</span> <span class="spanDarkBlue">inherit</span>) - which inherits the property from its parent’s element.</p>
+            <p class="inherit">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+        </div> 
+        <!-- Letter spacing section -->
+        <div id="letterSpacingDiv"> 
+            <h2 id="letterSpacing">Letter Spacing</h2>
+            <!-- normal -->
+            <p class="normalLetterSpacing">Normal (<span class="spanBlue">letter-spacing:</span> <span class="spanDarkBlue">normal</span>) - which means that there won’t be extra spaces between characters. It is the default value of this property.</p>
+            <p class="normalLetterSpacing">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- Length  -->
+            <p class="lengthLetterSpacing">Length  (<span class="spanBlue">letter-spacing:</span> <span class="spanDarkBlue">3px</span>) -  which defines an extra space between characters. Negative values are allowed.</p>
+            <p class="lengthLetterSpacing">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- initial  -->
+            <p class="initialLetterSpacing"> Initial (<span class="spanBlue">letter-spacing:</span> <span class="spanDarkBlue">initial</span>) - which makes the property use its default value.</p>
+            <p class="initialLetterSpacing">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- inherit  -->
+            <p class="inheritLetterSpacing">Inherit (<span class="spanBlue">letter-spacing:</span> <span class="spanDarkBlue">inherit</span>) - which inherits the property from its parent’s element.</p>
+            <p class="inheritLetterSpacing">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+        </div> 
+        <!-- Word spacing section -->
+        <div id="wordSpacingDiv"> 
+            <h2 id="wordSpacing">Letter Spacing</h2>
+            <!-- normal -->
+            <p class="normalWordSpacing">Normal (<span class="spanBlue">word-spacing:</span> <span class="spanDarkBlue">normal</span>) - which specifies normal word spacing. This is the default value of this property.</p>
+            <p class="normalWordSpacing">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- Length  -->
+            <p class="lengthWordSpacing">Length  (<span class="spanBlue">word-spacing:</span> <span class="spanDarkBlue">2em</span>) -  which specifies an extra word spacing. Can be specified in px, pt, cm, em, etc. Negative values are valid.</p>
+            <p class="lengthWordSpacing">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- initial  -->
+            <p class="initialWordSpacing"> Initial (<span class="spanBlue">word-spacing:</span> <span class="spanDarkBlue">initial</span>) - which makes the property use its default value.</p>
+            <p class="initialWordSpacing">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+            <hr><hr>
+            <!-- inherit  -->
+            <p class="inheritWordSpacing">Inherit (<span class="spanBlue">word-spacing:</span> <span class="spanDarkBlue">inherit</span>) - which inherits the property from its parent’s element.</p>
+            <p class="inheritWordSpacing">&#8220;Life is what happens when you are busy making other plans&#46;&#8221;&nbsp;&#126;&nbsp;John Lennon&#46;</p>
+        </div> 
+      </section>
+    </main>
+
+        <!-- footer section -->
+        <footer>
+            <p id="footerPar">For more details on&#58; <br>
+                &#8594;&nbsp;<a href="text.html" class="footerLinks">Text</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                &#8594;&nbsp;<a href="fonts.html" class="footerLinks">Fonts</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                &#8594;&nbsp;<a href="color.html" class="footerLinks">Color</a>
+          </p>
+          <p id=footerAuthor>&copy; Created by Ruzanna</p>
+          <p id="reference">Reference: https://www.w3docs.com/learn-css/css-text.html</p>
+        </footer>
+    </body>
+</html>
