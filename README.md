@@ -26,7 +26,7 @@ _________________________
 * HTML
 * CSS
 * Visual Code
-* Gut Bash
+* Git Bash
 
 ## Sources
 _________________________
