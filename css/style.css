@@ -5,7 +5,7 @@
    text-decoration: none;
    list-style-type: none;
    font-family: 'Merriweather', 'Times New Roman', Times, serif;
-   background-color: #dffcb5;
+   
 }
 @font-face {
     font-family: 'Merriweather';
@@ -18,9 +18,10 @@
 .homeHeaderDiv {
     text-align: center;
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     line-height: 4em;
     /* border: 1px solid; */
+    background-color: #b7c4a4;
 }
 #homeTitle {
     font-size: 3em;
@@ -28,7 +29,8 @@
 #homeNav ul {
     display: inline-flex;
     justify-content: space-evenly;
-    width: 70%;
+    width: 100%;
+ 
 }
 .navItems {
     font-size: 1.5em;
@@ -39,28 +41,32 @@
 
  /* main section */
 .introDiv {
-    display: inline-flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    padding: 3em;
+    text-align: center;
     width: 100%;
-    height: 60vh;
-    border: 1px dotted #add1fc;;  
+    height: 100vh;
+    line-height: 2.5em;
+    padding-top: 4em;
+    border: 1px dotted #add1fc; 
+    background-color: rgb(227, 253, 253);
 }
 #introHeading {
-    width: 35%;
+    margin-bottom: 2em;
 }
 #introPar {
+    margin: 0 auto;
     width: 35%;
-    padding-right: 2em;
-    line-height: 2.5em;
+    margin-bottom: 2em;
 }
+
 /* footer section */
 footer {
+    width: 100%;
+    height: auto;
     text-align: center;
     font-size: 1.5em;
-    line-height: 2em;
+    line-height: 1.5em;
+    padding-top: 1.5em;
+    background-color: #b7c4a4;
 }
 .footerLinks {
     text-decoration: underline;
