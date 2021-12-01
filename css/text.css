@@ -72,6 +72,11 @@
     line-height: 2.7em;
     padding: 2em 7em;   
 }
+#backToTopMenu {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 0.9em;
+}
 /* Text alignment section */
 .rightP {
     text-align: right;

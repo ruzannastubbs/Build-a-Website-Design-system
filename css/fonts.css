@@ -71,6 +71,11 @@
 .listItems:hover {
    color: #9870fc;
 }
+#backToTopMenu {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 0.9em;
+}
 /*Font main section */
 #fontMainSection {
     text-align: center;
